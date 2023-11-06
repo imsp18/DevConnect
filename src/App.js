@@ -5,7 +5,7 @@ import Navbar from './components/navbar';
 
 function App() {
   return (
-    <div className="mx-32">
+    <div className="mx-32 max-sm:mx-6">
       <Router>
         <Navbar />
         <Routes>
