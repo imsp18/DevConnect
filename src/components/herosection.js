@@ -2,10 +2,12 @@ import arrow1 from "../assets/arrow-1.svg";
 import arrow2 from "../assets/arrow-2.svg";
 import image1 from "../assets/image-1.svg";
 import image2 from "../assets/image-2.svg";
+import Profile from "./Profile";
 
 const HeroSection = () => {
     return (
         <div className="flex flex-col items-center justify-center mt-40">
+            <Profile />
             <div className="flex flex-row items-center justify-center">
                 <img src={arrow1} alt="arrow1" className="max-sm:hidden" />
                 <div className="flex flex-col items-center justify-center gap-4">
